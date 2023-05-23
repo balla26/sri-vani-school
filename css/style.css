@@ -11345,5 +11345,13 @@ a.text-dark:focus {
   }
 }
 
+.home-img {
+  height:500px;
+  width:500px;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  margin-right: 50px;
+
+}
 
 /* colors - #17A2b8 #00394f*/
