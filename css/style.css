@@ -11354,4 +11354,10 @@ a.text-dark:focus {
 
 }
 
+
+::placeholder {
+  /* font-family: Arial, sans-serif; */
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Handlee", cursive;
+}
 /* colors - #17A2b8 #00394f*/

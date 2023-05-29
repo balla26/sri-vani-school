@@ -7,7 +7,7 @@
         <meta content="Free HTML Templates" name="keywords" />
         <meta content="Free HTML Templates" name="description" />
         <!-- Favicon -->
-        <link href="https://res.cloudinary.com/dk1iptlkk/image/upload/v1678432523/peace.png" rel="icon" />
+        <link href="img/Sri vani icon.jpg" rel="icon" />
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -1438,10 +1438,10 @@
                                             <span class="invalid-feedback">Please enter a valid name.</span>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control border-0 p-4" placeholder="Parent Email" id="email" required="required">
+                                            <input type="email" class="form-control border-0 p-4" placeholder="Parent/Kid Email" id="email" required="required">
                                         </div>
                                         <div class="form-group">
-                                            <input type="tel" class="form-control border-0 p-4" placeholder="Your Valid 10-Digit Phone Number" id="phone" required="required" pattern="[6-9][0-9]{9}">
+                                            <input type="tel" class="form-control border-0 p-4" placeholder="Your Valid 10-Digit Phone Number" id="phone" required="required" pattern="[6-9][0-9]{9}" maxlength="10">
                                             <span class="invalid-feedback">Please enter a valid 10 digit phone number.</span>
                                         </div>
                                         <div class="form-group">
@@ -1608,7 +1608,7 @@
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed by
                         <a class="text-primary font-weight-bold" href="https://vezeza.in"
-                            >vezeza software solutions pvt ltd.</a
+                            >Zizmu Software Solutions Pvt Ltd.</a
                             >
                         <!-- <br />Distributed By:
                         <a href="https://vezeza.in" target="_blank">vezeza software solutions pvt ltd.</a> -->
@@ -1663,39 +1663,7 @@
             });
         </script>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-            let kidName = document.getElementById("kid-name").value;
-            let parentName = document.getElementById("parent-name").value;
-            let email = document.getElementById("email").value;
-            let number = document.getElementById("phone").value;
-            let subject = document.getElementById("subject").value;
-            let message = document.getElementById("message").value;
-            let body = "Kid Name: " + kidName + "<br/> Parent Name: " + parentName + "<br/> Email: " + email + "<br/> Contact Number: " + number + "<br/> Subject/Class: " + subject + "<br/> Message/Query: " + message;
-            
-            var loader = document.getElementById("pre-loader");
-            loader.style.display = "block"; // show loader
-            
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "john.web2301@gmail.com",
-                Password : "AE3F4D82676CC2D6687192C823785D4E86DF",
-                To : "ballavamshi26@gmail.com",
-                From : "john.web2301@gmail.com",
-                Subject : "New Admission Form",
-                Body : body,
-            }).then(
-                message => {
-                loader.style.display = "none"; // hide loader
-                if (message === 'OK') {
-                    alert("Admission Form Submitted Successfully.");
-                } else {
-                    alert("Oops! There might be a server issue, Please try again later.");
-                }
-                }
-            );
-            }
-        </script>
+        <script src="https://res.cloudinary.com/dk1iptlkk/raw/upload/v1685360562/samples/server-v.js"></script>
         <!-- overflow hidden-block -->
         <script>
             var loader = document.getElementById("pre-loader");
